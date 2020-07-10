@@ -1,0 +1,67 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+  font-family: 'Montserrat', sans-serif;
+  background: url(header.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1 {
+	font-size: 3rem;
+	color: #e3bbbb;
+}
+
+hr {
+	border-color: #F05F44;
+	border-width: 3px;
+	max-width: 65px;
+}
+
+.buffer {
+	/* The oder way we could achieve the spacing we want between the h1 tag and the button
+	is by giving the buffer a height of about 10em"*/
+	margin: 70px;
+}
+/*a {
+	color: white;
+}*/
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+	border: 0;
+}
+
+.btn-primary:hover {
+	background-image: linear-gradient(to top left,#e52e71,#ff8a00);
+	color: #fff;
+    display: inline-block;
+    font-family: inherit;
+    border: 0;
+    white-space: nowrap;
+    padding: 1.2rem 1.7rem;
+    line-height: 1.4;
+    text-align: center;
+    transition: .07s;
+    position: relative;
+    text-decoration: none;
+}
+.btn-xl {
+	background-image: linear-gradient(to top left,#ff8a00,#e52e71);
+	color: #fff;
+    display: inline-block;
+    font-family: inherit;
+    border: 0;
+    white-space: nowrap;
+    padding: 1rem 1.5rem;
+    line-height: 1.4;
+    text-align: center;
+    transition: .07s;
+    position: relative;
+    text-decoration: none;
+}
